@@ -1,0 +1,12 @@
+venv/
+.venv/
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+alembic.ini
+src/migrations/
+.idea/
+.vscode/
+docker-compose.yml
+Dockerfile

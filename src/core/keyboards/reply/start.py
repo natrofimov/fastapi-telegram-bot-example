@@ -9,12 +9,15 @@ test_keyboard = ReplyKeyboardMarkup(
             KeyboardButton(text="🔥 Example button 1"),
         ],
         [
-            KeyboardButton(text="🔥 Example button 2"),
+            KeyboardButton(text="⌨ Show inline keyboard"),
+        ],
+        [
+            KeyboardButton(text="⚙️ Change state"),
         ],
     ],
 )
 
 admins_only_keyboard = copy.deepcopy(test_keyboard)
 admins_only_keyboard.keyboard[-1].append(
-    KeyboardButton(text="✨ Button for admins only"),
+    KeyboardButton(text="✳ Button for admins only"),
 )

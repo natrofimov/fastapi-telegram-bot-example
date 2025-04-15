@@ -1,6 +1,10 @@
 services:
-  psychology-assistant:
-    build: .
+  fastapi-telegram-bot-example:
+    build:
+      context: .
+      args:
+        PORT: 8080
+        WORKDIR: "/fastapi-telegram-bot-example"
     ports:
-      - "8888:8888"
+      - "8080:8080"
     restart: unless-stopped

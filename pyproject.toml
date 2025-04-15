@@ -1,7 +1,7 @@
 [project]
-name = "telegram-bot-template"
+name = "fastapi-telegram-bot-example"
 version = "0.1.0"
-description = "Add your description here"
+description = "Telegram Bot Example (Aiogram 3.x, FastAPI etc.)"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [

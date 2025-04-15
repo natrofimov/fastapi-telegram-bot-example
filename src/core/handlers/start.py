@@ -33,6 +33,6 @@ async def command_start_handler(
 
     await message.answer(text, reply_markup=keyboard)
 
-    # you can use aiogram.Bot methods without importing it directly into module
+    # you can now use aiogram.Bot methods without importing it directly into module
     result = await bot.me()
     logger.debug("getMe result: %s", result)
